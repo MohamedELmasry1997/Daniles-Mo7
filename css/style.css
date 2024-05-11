@@ -1,0 +1,559 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: black;
+}
+html {
+  scroll-padding-top: 60px;
+}
+
+.navbar {
+  z-index: 99999;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../imgs/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header .hello {
+  font-size: 70px;
+}
+header p {
+  font-size: 40px;
+}
+header .animate::before {
+  content: "";
+  /* position: absolute; */
+  animation: typing 5s infinite ease-in;
+  font-weight: 600;
+}
+
+/* I Am Larry Daniels  Developer  Designer */
+
+@keyframes typing {
+  0% {
+    content: "  L|";
+  }
+
+  2% {
+    content: " La|";
+  }
+
+  4% {
+    content: " Lar|";
+  }
+
+  6% {
+    content: " Larr|";
+  }
+  8% {
+    content: " Larry|";
+  }
+
+  10% {
+    content: " Larry Da|";
+  }
+  12% {
+    content: " Larry Dan|";
+  }
+  14% {
+    content: " Larry Dani|";
+  }
+  16% {
+    content: " Larry Danie|";
+  }
+  18% {
+    content: " Larry Daniel|";
+  }
+  20% {
+    content: " Larry Daniels|";
+  }
+  22% {
+    content: " Larry Daniel|";
+  }
+  24% {
+    content: " Larry Danie|";
+  }
+  26% {
+    content: " Larry Dani|";
+  }
+  28% {
+    content: " Larry Dan|";
+  }
+  30% {
+    content: " Larry Da|";
+  }
+
+  32% {
+    content: " Larry D|";
+  }
+  34% {
+    content: " Larry|";
+  }
+  36% {
+    content: " Larr|";
+  }
+
+  38% {
+    content: " Lar|";
+  }
+  40% {
+    content: " La|";
+  }
+  42% {
+    content: " L|";
+  }
+  44% {
+    content: " |";
+  }
+
+  45% {
+    content: " D|";
+  }
+  47% {
+    content: " De|";
+  }
+  49% {
+    content: " Dev|";
+  }
+  51% {
+    content: " Deve|";
+  }
+  53% {
+    content: " Devel|";
+  }
+  55% {
+    content: " Develo|";
+  }
+  56% {
+    content: " Develop|";
+  }
+  58% {
+    content: " Develope|";
+  }
+  60% {
+    content: " Developer|";
+  }
+  62% {
+    content: " Develope|";
+  }
+  64% {
+    content: " Develop|";
+  }
+  66% {
+    content: " Develo|";
+  }
+  68% {
+    content: " Devel|";
+  }
+  70% {
+    content: " Deve|";
+  }
+  72% {
+    content: " Dev|";
+  }
+  74% {
+    content: " De|";
+  }
+  76% {
+    content: " D|";
+  }
+  78% {
+    content: " |";
+  }
+  /* d e s i g n e r */
+  80% {
+    content: " D|";
+  }
+  82% {
+    content: " De|";
+  }
+  84% {
+    content: " Des|";
+  }
+  86% {
+    content: " Desi|";
+  }
+  88% {
+    content: " Desig|";
+  }
+  90% {
+    content: " Design|";
+  }
+  91% {
+    content: " Designe|";
+  }
+  92% {
+    content: " Designer|";
+  }
+  93% {
+    content: " Designe|";
+  }
+  94% {
+    content: " Design|";
+  }
+  95% {
+    content: " Desig|";
+  }
+  96% {
+    content: " Desi|";
+  }
+  97% {
+    content: " Des|";
+  }
+  98% {
+    content: " De|";
+  }
+  99% {
+    content: " D|";
+  }
+  100% {
+    content: " |";
+  }
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+nav .active {
+  position: relative;
+}
+nav .active::after {
+  content: "";
+  position: absolute;
+  width: 65%;
+  bottom: 5px;
+  left: 15px;
+  border-bottom: 2px solid black;
+}
+.nav-link:hover {
+  color: black;
+}
+
+.fa-bars:before,
+.fa-navicon:before {
+  content: "\f0c9";
+  margin-left: -35px;
+}
+
+.icons i {
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+@media (max-width: 378px) {
+  .cv {
+    margin-bottom: 10px;
+  }
+}
+
+.cv:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+#services {
+  background-color: #f7f7f7;
+}
+
+#services .ser-cap {
+  position: relative;
+}
+#services h2::after {
+  content: ". . . . . . . . . ";
+  position: absolute;
+  top: 7px;
+  left: 44%;
+  color: #e9e5e5;
+}
+
+@media (max-width: 992px) {
+  #services h2::after {
+    content: ". . . . . . . . . ";
+    position: absolute;
+    top: 7px;
+    left: 37%;
+    color: #e9e5e5;
+  }
+}
+
+.ser-content {
+  padding: 40px 0;
+}
+.ser-content .my-ser {
+  background-color: white;
+  border-radius: 10px;
+}
+.my-ser i {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  padding: 28px 0;
+  transition: 0.5s;
+}
+.my-ser:hover i {
+  background-color: black;
+  color: white;
+}
+
+/* works section */
+
+#works .wrk-cap {
+  position: relative;
+}
+#works h2::after {
+  content: ". . . . . . . . . ";
+  position: absolute;
+  top: 7px;
+  left: 44%;
+  color: #e9e5e5;
+}
+
+@media (max-width: 992px) {
+  #works h2::after {
+    content: ". . . . . . . . . ";
+    position: absolute;
+    top: 7px;
+    left: 37%;
+    color: #e9e5e5;
+  }
+}
+
+.nav-tabs {
+  padding-top: 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border: none;
+  position: relative;
+  width: 95%;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  top: 70%;
+  left: 15px;
+}
+.my-layer {
+  position: relative;
+  overflow: hidden;
+}
+.my-layer .layer {
+  position: absolute;
+  background-color: white;
+  width: 96%;
+  height: 95%;
+  top: 100%;
+  left: 8px;
+  text-align: center;
+  align-content: center;
+  transition: all 0.5s;
+}
+.my-layer:hover .layer {
+  top: 8px;
+}
+
+.nav-tabs button {
+  font-weight: 900;
+}
+
+/* testimonia section */
+
+#clients .wrk-cap {
+  position: relative;
+}
+#clients h2::after {
+  content: "......................... ";
+  position: absolute;
+  top: 7px;
+  left: 43%;
+  color: #e9e5e5;
+}
+
+@media (max-width: 992px) {
+  #clients h2::after {
+    content: ". . . . . . . . . ";
+    position: absolute;
+    top: 7px;
+    left: 37%;
+    color: #e9e5e5;
+  }
+}
+
+.testi-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.testi-img img {
+  width: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+/* tetimonial end */
+
+/* team section */
+
+#team .wrk-cap {
+  position: relative;
+}
+#team h2::after {
+  content: ".................. ";
+  position: absolute;
+  top: 7px;
+  left: 44%;
+  color: #e9e5e5;
+}
+
+@media (max-width: 992px) {
+  #team h2::after {
+    content: ". . . . . . . . . ";
+    position: absolute;
+    top: 7px;
+    left: 37%;
+    color: #e9e5e5;
+  }
+}
+
+.team-layer {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-layer .layer {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 96%;
+  height: 76%;
+  top: 100%;
+  left: 8px;
+  text-align: center;
+  align-content: center;
+  transition: all 0.5s;
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.team-layer:hover .layer {
+  top: 8px;
+  transform: rotateY(0deg);
+}
+.team-layer:hover img {
+  /* transform: scale(1.2); */
+}
+.team-layer img {
+  overflow: hidden;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.social-icons i {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.social-icons i:hover {
+  background-color: white;
+  color: black;
+  outline: 2px black solid;
+}
+
+.team-text {
+  padding: 25px;
+  background-color: #5a5a5a;
+}
+
+/* contact section */
+
+#contact .wrk-cap {
+  position: relative;
+}
+#contact h2::after {
+  content: ".................. ";
+  position: absolute;
+  top: 7px;
+  left: 44%;
+  color: #e9e5e5;
+}
+
+@media (max-width: 992px) {
+  #contact h2::after {
+    content: ". . . . . . . . . ";
+    position: absolute;
+    top: 7px;
+    left: 37%;
+    color: #e9e5e5;
+  }
+}
+.contact-content i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #cecbcb;
+  padding-top: 12px;
+  font-size: 25px;
+  transition: 0.7s;
+}
+.contact-content:hover i {
+  background-color: black;
+  color: white;
+}
+
+.form-control {
+  background-color: #eae8e8;
+}
+.form-control:focus {
+  background-color: #eae8e8;
+  outline: 0;
+  box-shadow: none;
+  border-color: transparent;
+}
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  footer {
+    width: 100%;
+    background-color: green;
+  }
+}
